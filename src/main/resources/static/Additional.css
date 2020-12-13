@@ -1,0 +1,397 @@
+@charset "UTF-8";
+
+html, body {
+	background-color: white;
+	color: #242E28;
+	font-family: Arial;
+	overflow-x: hidden;
+}
+
+.container-fluid {
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+/* 	position: relative; */
+}
+
+
+/* footer fragment */
+#footerDiv {
+	/* position: absolute; */
+	bottom: 0;
+	width: 100%;
+	height: 2.5px;
+}
+
+.footer{
+	background-color: #CEDEDE;
+	padding: 20px 20px 0px;
+}
+
+.footerJustifyRight {
+	justify-content: flex-start;
+}
+
+
+/* header fragment */
+#headerDiv{
+	color: #37443c;
+	background-color: #CEDEDE;
+	/* These force the header to cover the entire page, making up for 15px margin bootstrap adds onto its container */
+	margin-right: -15px;
+	margin-left: -15px;
+	padding: 20px;
+	height: 10%;
+}
+
+
+
+/* index page */
+
+.indexContent {
+	margin: 0;
+	padding: 0;
+}
+
+.indexImgEven {
+	height: 150px;
+	width: 150px;
+}
+
+.indexImgOdd  {
+	height: 150px;
+	width: 150px;
+}
+
+.indexBoxEven {
+	background: #F3F7F7;
+	height: 300px;
+	width: auto;
+	padding: 30px;
+	align-items: center;
+}
+
+.indexBoxOdd{
+	height: 300px;
+	width: auto;
+	padding: 30px;
+	 align-items: center;
+}
+
+												/* mediaquery for index */
+@media (max-width: 575px) {
+	.indexImgEven {
+		height: 10rem;
+		width: 10rem;
+	}
+	
+	.indexImgOdd  {
+		height: 10rem;
+		width: 10rem;
+	}
+	
+	.indexContentEven {
+		margin-left: 1rem;
+	}
+	
+	.indexContentOdd {
+		margin-right: 1rem;
+	}
+	
+	.indexBoxEven {
+		background: #F3F7F7;
+		height: 44rem;
+		width: auto;
+		padding: 1rem;
+	}
+	
+	.indexBoxOdd{
+		height: 44rem;
+		width: auto;
+		padding: 1rem;
+		 align-items: center;
+	}
+	
+	.overviewBox {
+		background: #F3F7F7;
+		height: 30rem;
+		width: auto;
+		padding: 1rem;
+		align-items: center;
+	}
+	
+/* 	.overviewText {
+	font-size: 20px;
+	} */
+}
+
+@media (min-width: 576px) {
+	.indexImgEven {
+		height: 14rem;
+		width: 14rem;
+		margin: 1rem;
+	}
+	
+	.indexImgOdd  {
+		height: 14rem;
+		width: 14rem;
+		margin: 1rem
+	}
+	
+	.indexContentEven {
+		margin-left: 2rem;
+		margin-right: 2rem;
+	}
+	
+	.indexContentOdd {
+		margin-left: 2rem;
+		margin-right: 2rem;
+	}
+	
+	.indexBoxEven {
+		background: #F3F7F7;
+		height: 38rem;
+		width: auto;
+		padding: 1.5rem;
+		align-items: center;
+	}
+	
+	.indexBoxOdd{
+		height: 38rem;
+		width: auto;
+		padding: 1.5rem;
+		 align-items: center;
+	}
+	
+	.overviewBox {
+		background: #F3F7F7;
+		height: 28rem;
+		width: auto;
+		padding: 2rem;
+		align-items: center;
+	}
+	
+	.overviewContent {
+		margin: 2rem;
+	}
+}
+
+@media (min-width: 768px) {
+	.indexImgEven {
+	height: 17rem;
+	width: 17rem;
+	margin: 3rem;
+	}
+	
+	.indexImgOdd  {
+		height: 17rem;
+		width: 17rem;
+		margin: 3rem;
+	}
+	
+	.indexContentEven {
+		margin: 3rem 3rem 3rem 6rem;
+	}
+	
+	.indexContentOdd {
+		margin: 3rem 6rem 3rem 3rem;
+	}
+	
+	.indexBoxEven {
+		background: #F3F7F7;
+		height: 37rem;
+		width: auto;
+		padding: 2rem;
+		align-items: center;
+	}
+	
+	.indexBoxOdd{
+		height: 37rem;
+		width: auto;
+		padding: 2rem;
+		 align-items: center;
+	}
+	
+	.overviewBox {
+		background: #F3F7F7;
+		height: 26rem;
+		width: auto;
+		padding: 2rem;
+		align-items: center;
+	}
+	
+	.overviewContent {
+		margin: 2rem;
+	}
+}
+
+@media(min-width: 992px) {
+	.indexImgEven {
+		height: 20rem;
+		width: 20remp;
+		margin: 3rem;
+	}
+	
+	.indexImgOdd  {
+		height: 20rem;
+		width: 20rem;
+		margin: 3rem;
+	}
+	
+	.indexContentEven {
+		margin: 3rem 3rem 3rem 6rem;
+	}
+	
+	.indexContentOdd {
+		margin: 3rem 6rem 3rem 3rem;
+	}
+	
+	.indexBoxEven {
+		background: #F3F7F7;
+		height: 30rem;
+		width: auto;
+		padding: 2rem;
+		align-items: center;
+	}
+	
+	.indexBoxOdd{
+		height: 30rem;
+		width: auto;
+		padding: 2rem;
+		 align-items: center;
+	}
+	
+	.overviewBox {
+		background: #F3F7F7;
+		height: 20rem;
+		width: auto;
+		padding: 2rem;
+		align-items: center;
+	}
+	
+	.overviewContent {
+		margin: 2rem;
+	}
+} 
+
+
+
+
+/* register page  */
+.register {
+	padding: 30px;
+	margin: 100px 300px;
+	border-radius: 20px;
+}
+
+
+@media (max-width: 575px) {
+	.register {
+		margin: 2rem 2rem;
+    	padding: 10px;
+	}
+}
+
+@media (min-width: 576px) {
+	.register {
+		margin: 2rem 5rem;
+    	padding: 5px;
+	}
+}
+
+@media (min-width: 768px) {
+  .register {
+    margin: 5rem 7rem;
+    padding: 20px;
+    
+  }
+}
+
+@media(min-width: 992px) {
+	.register {
+	margin: 8rem 9rem;
+	padding: 25px;
+	
+	}
+}
+
+/* login page */
+.login {
+	padding: 30px;
+	margin: 100px 300px;
+	border-radius: 20px;	
+}
+
+  
+@media (max-width: 575px) {
+	.login {
+		margin: 2rem 2rem;
+    	padding: 10px;
+	}
+}
+
+@media (min-width: 576px) {
+	.login {
+		margin: 2rem 5rem;
+    	padding: 5px;
+	}
+}
+
+@media (min-width: 768px) {
+  .login {
+    margin: 5rem 7rem;
+    padding: 20px;
+    
+  }
+}
+
+@media(min-width: 992px) {
+	.login {
+	margin: 8rem 9rem;
+	padding: 25px;
+	
+	}
+}
+
+
+/* About Page */
+@media(max-width: 400px ) {
+	.aboutBox {
+		background: #F3F7F7;
+		height: 47rem;
+		width: auto;
+		padding: 2rem;
+		align-items: center;
+	}
+}
+
+
+@media (min-width: 401px) {
+	.aboutBox {
+		background: #F3F7F7;
+		height: 42rem;
+		width: auto;
+		padding: 2rem;
+		align-items: center;
+	}
+}
+
+@media (min-width: 576px) {
+	.aboutBox {
+		background: #F3F7F7;
+		height: 35rem;
+		width: auto;
+		padding: 2rem;
+		align-items: center;
+	}
+}
+
+@media(min-width: 768px) {
+.aboutBox {
+		background: #F3F7F7;
+		height: 30rem;
+		width: auto;
+		padding: 2rem;
+		align-items: center;
+	}
+}
